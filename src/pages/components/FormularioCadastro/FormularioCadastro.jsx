@@ -20,7 +20,7 @@ function FormularioCadastro({ aoEnviar }) {
         >
           <div className="flex-shrink-0">
             <h1 className="text-indigo-600 text-center pb-3 text-3xl font-bold">
-              Dados pessoas
+              Dados pessoais
             </h1>
 
             <input
