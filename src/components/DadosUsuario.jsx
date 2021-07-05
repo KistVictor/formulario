@@ -12,7 +12,7 @@ function DadosUsuario({ aoEnviar }) {
         <form
           onSubmit={event => {
             event.preventDefault()
-            aoEnviar({  })
+            aoEnviar({email, senha})
           }}
           className="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4"
         >

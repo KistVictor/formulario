@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 
 function DadosPessoais({ aoEnviar }) {
-  //esta sendo pego apenas o props 'aoEnviar'
+
   const [nome, setNome] = useState("")
   const [sobrenome, setSobrenome] = useState("")
   const [cpf, setCpf] = useState("")
@@ -54,8 +54,8 @@ function DadosPessoais({ aoEnviar }) {
             id="CPF"
             type="text"
             required
-            maxlength="11"
-            minlength="11"
+            maxLength="11"
+            minLength="11"
             placeholder="CPF"
             className="border shadow rounded-md border-indigo-700 border-opacity-50 block px-2 mb-5 max-w-lg mx-auto"
           />
